@@ -1,16 +1,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/Container.Backgraund">
 
-    <LinearLayout
+    <fragment
+        class="uz.ideveloper.moneytracker.TransactionsFrogment"
+        android:id="@+id/transaction_fragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#F7F7F7">
-
-        <ListView
-            android:id="@+id/listView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:divider="@android:color/transparent"
-            android:dividerHeight="0.4dp"></ListView>
-    </LinearLayout>
+        android:layout_height="wrap_content" />
 </RelativeLayout>
